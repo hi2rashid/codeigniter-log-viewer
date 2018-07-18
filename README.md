@@ -37,7 +37,7 @@ In `Welcome.php` Controller
     
 In `application/config/config.php` Config file
 
-$config['ci_log_path'] = "/var/log/localhost/ci_log_path"
+    $config['ci_log_path'] = "/var/log/localhost/ci_log_path"
     
     
 Also you need to make sure the directories `/var/log/localhost/ci_log_path` created and writable
