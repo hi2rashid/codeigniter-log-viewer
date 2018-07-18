@@ -1,0 +1,24 @@
+{
+  "name": "hi2rashid/codeigniter-log-viewer",
+  "description": "This is a simple Log Viewer for viewing Code Igniter log files on the browser",
+  "keywords": ["CodeIgniter","Code Igniter", "Log Viewer", "PHP"],
+  "license": "MIT",
+  "github": "https://github.com/hi2rashid/codeigniter-log-viewer",
+  "authors": [
+    {
+      "name": "Abdul Rashid",
+      "email": "hi2rashid@gmail.com"
+    }
+  ],
+  "archive" : {
+    "exclude" : ["/sample.png"]
+  },
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CILogViewer\\": "src/"
+    }
+  }
+}
