@@ -6,6 +6,6 @@ Inspired by https://github.com/SeunMatt/codeigniter-log-viewer
 
 Change Log:
 
-Initial Comit
+Release version: v1.0.0
 Date: 18-July-2018
 * You can change the log viewer path by passing path as constructor.
