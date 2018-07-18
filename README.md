@@ -42,5 +42,5 @@ In `application/config/config.php` Config file
     
 Also you need to make sure the directories `/var/log/localhost/ci_log_path` created and writable
 
-In Terminal : sudo mkdir -p /var/log/localhost/ci_log_path
-sudo chmod -Rf 777 /var/log/localhost/ci_log_path   (Make sure not to use 777 on production systems)
+In Terminal : `sudo mkdir -p /var/log/localhost/ci_log_path`
+`sudo chmod -Rf 777 /var/log/localhost/ci_log_path`   (Make sure not to use 777 on production systems)
