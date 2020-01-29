@@ -48,4 +48,4 @@ In Terminal : `sudo mkdir -p /var/log/localhost/ci_log_path`
 
 
 ## Auto Refresh the Log View page
-Just append http://localhost/codeigniter/welcome/logviewer`?rt=5000` (5 seconds)
+Just append http://localhost/codeigniter/welcome/logviewer?rt=5000 (5 seconds)
