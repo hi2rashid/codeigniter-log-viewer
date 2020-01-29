@@ -44,3 +44,8 @@ Also you need to make sure the directories `/var/log/localhost/ci_log_path` crea
 
 In Terminal : `sudo mkdir -p /var/log/localhost/ci_log_path`
 `sudo chmod -Rf 777 /var/log/localhost/ci_log_path`   (Make sure not to use 777 on production systems)
+
+
+
+## Auto Refresh the Log View page
+Just append http://localhost/codeigniter/welcome/logviewer`?rt=5000` (5 seconds)
