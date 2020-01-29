@@ -151,6 +151,11 @@
         $('#delete-log, #delete-all-log').click(function () {
             return confirm('Are you sure?');
         });
+        <?php if (isset($refresh_time) && (int)$refresh_time > 1000): ?>
+              setInterval(function(){
+                location.reload();
+              }, <?php echo $refresh_time; ?>);
+        <?php endif; ?>
     });
 </script>
 </body>

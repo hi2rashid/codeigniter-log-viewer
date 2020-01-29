@@ -92,6 +92,13 @@ class CILogViewer {
             $this->downloadFile(base64_decode($f));
             return;
         }
+        
+        // Refresh page every X ms
+        if ( (int) $this->CI->input->get('rt') > 1000) {
+          $data['refresh_time'] = $this->CI->input->get('rt');
+        }else{
+          $data['refresh_time'] = 0;
+        }
 
         $fileName = ($this->CI->input->get("f")) ? $this->CI->input->get("f") : null;
 
