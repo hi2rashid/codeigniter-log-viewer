@@ -13,6 +13,10 @@ Date: 18-July-2018
 
 # How to Use it
 
+Install using composer
+
+`composer require hi2rashid/codeigniter-log-viewer`
+
 Copy following line of code to any of your Codeigniter Controller
 
 ## Method 1 ()
